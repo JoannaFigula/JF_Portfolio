@@ -1,0 +1,27 @@
+.aboutSelection {
+  width: 100%;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  background-image: url('../../img/morze.jpg');
+  background-repeat: no-repeat;
+  background-position: 50%;
+  padding: 110px 94px;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  z-index: 11;
+  overflow: hidden;
+  .aboutTitle{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: #c7a2a2;
+    padding-bottom: 70px;
+  }
+  .aboutParts{
+    display: flex;
+    justify-content: space-evenly;
+  }
+}

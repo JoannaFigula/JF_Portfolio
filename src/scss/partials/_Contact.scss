@@ -1,0 +1,66 @@
+//.container{
+//  display: flex;
+//  justify-content: space-between;
+//  width: 100vw;
+//  height: 100vh;
+//  //border:1px solid black;
+//}
+
+.contact {
+  background-color: $first-color;
+  width: 100%;
+  min-height: 100vh;
+
+
+  .avatarImage {
+    //border:1px solid yellow;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+
+    img {
+      width: 800px;
+    }
+  }
+
+  .mainText {
+    background-image: url("../../img/spider.svg");
+    background-repeat: no-repeat;
+    background-position:0 -10px;
+    background-size:50%;
+    width: 100%;
+    //border:1px solid pink;
+    display: flex;
+    flex-direction: column;
+    //align-items: center;
+    justify-content: center;
+
+    h1 {
+      width: 100%;
+      //text-transform: uppercase;
+      line-height: 90px;
+      font-size: 100px;
+      color: #b2adad;
+      //border:1px solid black;
+      padding: 10px;
+      margin: 0 60px 20px 60px;
+      span {
+        color:$fifth-color;
+      }
+    }
+
+    span {
+      color:#b2adad;
+    }
+
+    p {
+      //border:1px solid black;
+      color: $third-color;
+      font-size: 25px;
+      padding-top: 10px;
+      margin-left: 120px;
+      font-weight: bold;
+    }
+  }
+}

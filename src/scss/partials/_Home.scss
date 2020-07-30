@@ -1,0 +1,140 @@
+.container{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  //border:1px solid black;
+}
+
+.home{
+  width: 100%;
+  min-height: 100vh;
+  background-color: $first-color;
+  background-image:url("../../img/woolfT.svg");
+  background-repeat: no-repeat;
+  background-position-y: 0;
+  background-position-x: 900px;
+  background-size: 90%;
+  //border:1px solid blue;
+  display: flex;
+  align-items: center;
+
+  .avatarImage{
+    //border:1px solid yellow;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    img{
+      width: 700px;
+      position: relative;
+      top:33px;
+    }
+  }
+  .mainText{
+    width: 100%;
+    //border:1px solid pink;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    h1{
+      width: 90%;
+      font-size: 100px;
+      color: $fifth-color;
+      //border:1px solid black;
+      padding: 40px 60px;
+    }
+
+    span{
+      color:#b2adad;
+    }
+
+    p{
+      width: 90%;
+      //border:1px solid black;
+      color: $third-color;
+      font-size: 25px;
+      padding: 10px 65px;
+      font-weight: bold;
+      span{
+        text-transform: uppercase;
+      }
+    }
+  }
+}
+
+  .wrapper {
+    width: 90%;
+    display: flex;
+    min-height: 200px;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 65px;
+    padding-top: 100px;
+    //border:1px solid black;
+  }
+
+  button {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 4px;
+    font-weight: 700;
+    box-shadow: 0 0 50px #baa5a5;
+    color: $third-color;
+    background: linear-gradient(90deg, $fifth-color, #baa5a5, #f79cc2, $fifth-color);
+    background-size: 300%;
+    padding: 2px;
+    border: none;
+  }
+
+  button span a {
+    text-decoration: none;
+    color: $first-color;
+  }
+
+  button span {
+    display: block;
+    padding: 22px 30px;
+    min-width: 150px;
+    background: $third-color;
+    mix-blend-mode: color-burn;
+  }
+
+  button:hover {
+    animation: animate-gradient 10s linear infinite;
+  }
+
+  @keyframes animate-gradient {
+    0% {
+      background-position: 0%;
+    }
+    100% {
+      background-position: 400%;
+    }
+  }
+
+  button:before {
+    content: "";
+    position: absolute;
+    top: -4px;
+    bottom: -4px;
+    left: -4px;
+    right: -4px;
+    background: linear-gradient(90deg, $fifth-color, #baa5a5, #c96262, $fifth-color);
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(40px);
+    opacity: 0;
+    transition: 0.7s;
+  }
+
+  button:hover:before {
+    opacity: 1;
+    animation: animate-gradient 10s linear infinite;
+  }
+
+
+

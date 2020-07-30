@@ -1,0 +1,24 @@
+import React, {Component} from 'react';
+import AboutWho from "../AboutSelection/AboutWho";
+import AboutProjects from "../AboutSelection/AboutProjects";
+import {Link} from 'react-scroll';
+
+export default class AboutSelection extends Component {
+    render(){
+        const options = {
+            activeClass: "active",
+            smooth: "true",
+            offset: -200,
+            duration: 800,
+        }
+        return(
+            <section className="aboutSelection container" data-stretch-type="full" data-hasbg="hasbg" data-overlay-color="#000000" data-overlay="true"  >
+                <h2 className="aboutTitle">Do you want to...</h2>
+                <div className="aboutParts">
+                    <AboutWho />
+                    <AboutProjects />
+                </div>
+            </section>
+        )
+    }
+}

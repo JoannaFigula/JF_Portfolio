@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*modules*/
+@import "modules/reset";
+@import "modules/colors";
+@import "modules/mixins";
+
+/*partials*/
+@import 'partials/Header';
+@import 'partials/Home';
+@import 'partials/About';
+@import 'partials/Contact';
+@import 'partials/ContactForm';
+@import 'partials/AboutSelection';
+@import 'partials/AboutMe';
+@import 'partials/AboutWho';
+@import 'partials/AboutProjects';
+@import 'partials/AboutWork';
+@import 'partials/AboutDescription';
+@import 'partials/AboutSkils';
