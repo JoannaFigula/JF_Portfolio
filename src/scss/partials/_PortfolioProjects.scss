@@ -1,0 +1,232 @@
+.myWork {
+  display: flex;
+  flex-direction: column;
+  background-color: $fifth-color;
+  padding: 20px;
+   .workTitle {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: #bbaeae;
+    padding: 40px;
+  }
+}
+
+.grid {
+  overflow: hidden;
+  padding-bottom: 70px;
+  width: 100%;
+  /*list-style: none;*/
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+/*Common style*/
+.grid figure {
+  width: 25%;
+  position: relative;
+  z-index: 1;
+  //display: inline-block;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  //margin: 10px;
+  height: 400px;
+  background: $fifth-color;
+  text-align: center;
+  cursor: pointer;
+
+}
+
+.grid figure img {
+  width:100%;
+  position: relative;
+  //display: block;
+  min-height: 90%;
+  opacity: 0.8;
+}
+
+.grid figure figcaption {
+  padding: 40px;
+  //color: #fff;
+  text-transform: uppercase;
+  font-size: 16px;
+  backface-visibility: visible;
+}
+
+h2 {
+  padding: 10px;
+  color: $third-color;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 900;
+  //backface-visibility: hidden;
+}
+
+.grid figure figcaption::before,
+.grid figure figcaption::after {
+  pointer-events: none;
+}
+
+.grid figure figcaption,
+.grid figure a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Anchor will cover the whole item by default */
+/* For some effects it will show as a button */
+.grid figure a {
+  z-index: 1000;
+  text-indent: 200%;
+  white-space: nowrap;
+  font-size: 0;
+  opacity: 0;
+}
+
+.grid figure h3{
+  word-spacing: -0.15em;
+  font-weight: 300;
+}
+
+.grid figure h3 span {
+  font-weight: 800;
+}
+
+.grid figure h3,
+.grid figure p {
+  margin: 0;
+}
+
+.grid figure p {
+  letter-spacing: 1px;
+  font-size: 68.5%;
+}
+
+figure.effect-zoe figcaption {
+  top: auto;
+  bottom: 0;
+  padding: 1em;
+  height: 3.75em;
+  background: #bbaeae;
+  color: #3c4a50;
+  transition: transform 0.35s;
+  transform: translate3d(0,100%,0);
+}
+
+
+figcaption{
+  display:flex;
+  justify-content: center;
+}
+
+.effectSearch{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+figure.effect-zoe p {
+  width: 90%;
+  position: absolute;
+  bottom: 125px;
+  padding: 10px;
+  font-weight: bold;
+  text-transform: none;
+  font-size: 15px;
+  line-height: 1.5;
+  transition: opacity 0.35s;
+  background-color: $first-color;
+  //border: 3px solid $fifth-color;
+  //background-color: #bbaeae;
+  opacity: 0;
+}
+//figure.effect-zoe h2 {
+//  position: absolute;
+//  bottom: 200px;
+//  padding: 20px;
+//  color: black;
+//  font-weight: bold;
+//  text-transform: none;
+//  font-size: 90%;
+//  opacity: 0;
+//  transition: opacity 0.35s;
+//}
+
+figure.effect-zoe h3,
+figure.effect-zoe figcaption > span {
+  transition: transform 0.35s;
+  transform: translate3d(0,200%,0);
+}
+
+figure.effect-zoe figcaption > span::before {
+  display: inline-block;
+  padding: 8px 10px;
+  speak: none;
+  //-webkit-font-smoothing: antialiased;
+  //-moz-osx-font-smoothing: grayscale;
+}
+
+ .icons{
+   width: 20%;
+   display:flex;
+   justify-content: space-evenly;
+   align-items: center;
+   color: $fifth-color;
+ }
+
+figure.effect-zoe h3 {
+  display: inline-block;
+}
+figure.effect-zoe h2 {
+  display: inline-block;
+}
+
+figure.effect-zoe:hover p {
+  opacity: 1;
+}
+
+figure.effect-zoe:hover figcaption,
+figure.effect-zoe:hover h3,
+figure.effect-zoe:hover figcaption > span {
+  //-webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+figure.effect-zoe:hover h2 {
+  transform: translate3d(100px,100px,100px);
+  opacity:0;
+}
+
+figure.effect-zoe:hover h3{
+  //-webkit-transition-delay: 0.05s;
+  transition-delay: 0.05s;
+}
+
+figure.effect-zoe:hover figcaption > span:nth-child(4) {
+  //-webkit-transition-delay: 0.1s;
+  transition-delay: 0.1s;
+}
+
+figure.effect-zoe:hover figcaption > span:nth-child(3) {
+  //-webkit-transition-delay: 0.15s;
+  transition-delay: 0.15s;
+}
+
+figure.effect-zoe:hover figcaption > span:nth-child(2) {
+  //-webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+
+.workProgress{
+  width: 30%;
+}

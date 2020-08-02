@@ -4,7 +4,7 @@
   padding: 10px;
 
   h2{
-    color: #c7a2a2;
+    color: #10141E;
     font-weight: bold;
   }
   .aboutBtn{
@@ -15,9 +15,10 @@
     text-decoration: none;
     position: relative;
     //background-color: #c64343;
-    background-color: transparent;
+    background-color: $fifth-color;
+    opacity: 0.7;
     border:2px solid $fifth-color;
-    color: $fifth-color;
+    color: $sixth-color;
     border-radius: 5px;
     //border:none;
     font-size: 14px;
@@ -35,8 +36,11 @@
     //border-bottom: 2px dashed $second-text-color;
   }
   a:hover {
-    background-color: #c7a2a2;
+    background-color: #d3c4c4;
+    color: $fifth-color;
     border:none;
   }
-
+  ul{
+    list-style-type: none;
+  }
 }

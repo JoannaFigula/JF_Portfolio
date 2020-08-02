@@ -1,24 +1,29 @@
 .aboutDescription{
   width: 100%;
-  min-height: 50vh;
-  background-color: $sixth-color;
+  background-color: black;
+  padding-bottom: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
-  //border: 1px solid red;
+  background-image: url("../../img/batGeo.svg");
+  background-repeat: no-repeat;
+  background-position: bottom bottom;
+  background-size:20%;
+  flex-shrink: 0.5;
+  //border:1px solid white;
   .aboutText {
     width: 60%;
+    min-width: 1000px;
+    align-items: stretch;
     display: flex;
     justify-content: center;
-    align-items: center;
     //border: 1px solid black;
     h2{
       font-size: 40px;
-      color:$first-color;
+      color:$fifth-color;
       text-align: center;
-      padding: 20px 0;
-      text-shadow: 5px 5px 0 #b2adad;
-      //text-decoration: underline;
+      padding-bottom: 20px;
+      text-transform: uppercase;
     }
     p{
       font-size: 20px;
@@ -32,6 +37,10 @@
   }
   .coliberImage img {
     width: 120%;
-    //border: 1px solid black;
+  }
+  .coliberImage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }

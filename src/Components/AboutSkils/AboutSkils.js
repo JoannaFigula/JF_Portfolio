@@ -4,9 +4,10 @@ export default class AboutSkils extends Component {
     render() {
         return(
             <section id="skills" className="skills container" data-content="skills">
+                <h2>Witch skills I have</h2>
                 <div className="base">
                     <div className="hard">
-                        <h2>Hard <span>skills</span></h2>
+                        <h3>Hard <span>skills</span></h3>
                         <ul>
                             <li>JavaScript ES6</li>
                             <li>React</li>
@@ -24,7 +25,7 @@ export default class AboutSkils extends Component {
                     </div>
 
                     <div className="soft">
-                        <h2>Soft <span>skills</span></h2>
+                        <h3>Soft <span>skills</span></h3>
                         <ul>
                             <li>Work ethic</li>
                             <li>Creativity</li>

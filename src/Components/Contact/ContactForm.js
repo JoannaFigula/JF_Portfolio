@@ -106,7 +106,7 @@ export default class ContactForm extends Component {
                        />
                     {this.state.message.error && <div className="messageInfo">You must include at least one positive keyword with 3 characters or more.</div>}
                 </div>
-                <div disabled={valid} className="button">
+                <div disabled={valid} className="buttonContact">
                     <button disabled={valid} className="contactBtn" id="btn" type="submit">Send IT!</button>
                     {this.state.success ? (<div className="messageContact">Message sent!</div> ) : false}
                 </div>

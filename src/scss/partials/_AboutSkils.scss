@@ -1,42 +1,62 @@
-.skills{
+.skills {
   width:100%;
-  min-height: 900px;
-  background-image: url("../../img/witch_d.svg");
+  min-height: 950px;
+  background-image: url("../../img/bat.svg");
   background-repeat: no-repeat;
-  background-position:800px 50px;
-  background-size:15%;
+  background-position:left;
+  background-size:50%;
   background-color: $sixth-color;
-  .base{
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+
+  .base {
     width: 100%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    padding: 40px;
+    //border:1px solid black;
+    background-image: url("../../img/witch_d.svg");
+    background-repeat: no-repeat;
+    background-position:center center;
+    background-size:15%;
     //padding: 40px;
   }
-  h2{
+  h3 {
     color: $fifth-color;
-    font-size: 40px;
+    font-size: 30px;
     padding-bottom: 30px;
     font-weight: bold;
   }
-  li{
+  li {
     font-size: 25px;
     line-height: 2;
     color:#897272;
     margin-left: 40px;
     text-transform: lowercase;
   }
-  p{
+  ul {
+    list-style-type: none;
+  }
+  p {
     padding-top: 30px;
-    font-size: 50px;
+    font-size: 45px;
     text-transform: lowercase;
     font-weight: bold;
     color: #050914;
   }
   strong {
-    font-size: 50px;
+    font-size: 45px;
     color: $first-color;
   }
-
+  h2 {
+    color: $fifth-color;
+    font-size: 40px;
+    padding: 40px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+  }
 }
 
