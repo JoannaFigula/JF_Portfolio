@@ -4,7 +4,7 @@ export default class AboutSkils extends Component {
     render() {
         return(
             <section id="skills" className="skills container" data-content="skills">
-                <h2>Witch skills I have</h2>
+                <h2>Witch skills I have?</h2>
                 <div className="base">
                     <div className="hard">
                         <h3>Hard <span>skills</span></h3>

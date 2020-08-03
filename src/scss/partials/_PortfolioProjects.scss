@@ -4,7 +4,8 @@
   background-color: $fifth-color;
   padding: 20px;
    .workTitle {
-    text-transform: uppercase;
+    text-transform: capitalize;
+    font-style: italic;
     text-align: center;
     font-size: 40px;
     font-weight: bold;
@@ -55,7 +56,7 @@
 .grid figure figcaption {
   padding: 40px;
   //color: #fff;
-  text-transform: uppercase;
+  //text-transform: uppercase;
   font-size: 16px;
   backface-visibility: visible;
 }
@@ -63,7 +64,8 @@
 h2 {
   padding: 10px;
   color: $third-color;
-  text-transform: uppercase;
+  text-transform: capitalize;
+  font-style: italic;
   font-size: 20px;
   font-weight: 900;
   //backface-visibility: hidden;
@@ -122,7 +124,6 @@ figure.effect-zoe figcaption {
   transition: transform 0.35s;
   transform: translate3d(0,100%,0);
 }
-
 
 figcaption{
   display:flex;

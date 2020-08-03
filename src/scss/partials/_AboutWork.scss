@@ -14,7 +14,8 @@
     h2 {
       width: 100%;
       color: $third-color;
-      text-transform: uppercase;
+      text-transform: capitalize;
+      font-style: italic;
       font-size: 40px;
       font-weight: 900;
       text-align: center;

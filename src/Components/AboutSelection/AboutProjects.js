@@ -6,7 +6,7 @@ export default class AboutProjects extends Component {
         const options = {
             activeClass: "active",
             smooth: "true",
-            offset: -200,
+            offset: 0,
             duration: 800,
         }
         return(

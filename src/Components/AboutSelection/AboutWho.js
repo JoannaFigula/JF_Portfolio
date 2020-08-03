@@ -6,8 +6,8 @@ export default class AboutWho extends Component {
         const options = {
             activeClass: "active",
             smooth: "true",
-            offset: 50,
-            duration: 800,
+            offset: 100,
+            duration: 600,
         }
         return (
             <div className="aboutWho">

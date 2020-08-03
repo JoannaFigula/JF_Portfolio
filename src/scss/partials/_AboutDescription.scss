@@ -23,7 +23,8 @@
       color:$fifth-color;
       text-align: center;
       padding-bottom: 20px;
-      text-transform: uppercase;
+      text-transform: capitalize;
+      font-style: italic;
     }
     p{
       font-size: 20px;

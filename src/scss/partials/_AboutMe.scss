@@ -1,19 +1,18 @@
 .aboutMe {
   width: 100%;
-  min-height: 700px;
   //background: $third-color;
   content:"";
   background-image: url("../../img/spider_about.svg");
   background-repeat: no-repeat;
   background-position: -450px -280px;
-  background-size:75%;
+  background-size:80%;
   display: flex;
   justify-content:center;
   align-items: center;
   background-color: #050914;
 
     .img-about {
-      width: 45%;
+      width: 50%;
       opacity: 0.3;
       position: relative;
       top:30px;

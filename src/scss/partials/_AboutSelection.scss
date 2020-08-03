@@ -20,7 +20,7 @@
   flex-direction: column;
   background-image: url('../../img/morze.jpg');
   background-repeat: no-repeat;
-  background-position: 50%;
+  background-position: center bottom;
   padding: 100px 94px;
   background-size: cover;
   background-attachment: fixed;
@@ -29,7 +29,8 @@
   overflow: hidden;
 
   .aboutTitle{
-    text-transform: uppercase;
+    text-transform: capitalize;
+    font-style: italic;
     text-align: center;
     font-size: 40px;
     font-weight: bold;
