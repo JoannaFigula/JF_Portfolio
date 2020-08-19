@@ -22,7 +22,7 @@ export default class PortfolioProjects extends Component {
                                 <h3>Country <span>Search</span></h3>
                                 <div className="icons">
                                     <span><FontAwesomeIcon icon={faEye } /></span>
-                                    <span><a href="https://github.com/JoannaFigula/Country-Search" target="_blank"></a><FontAwesomeIcon icon={faCode} /></span>
+                                    <span><a href="https://github.com/JoannaFigula/Country-Search" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faCode} /></a></span>
 
                                 </div>
                             </div>
@@ -41,7 +41,7 @@ export default class PortfolioProjects extends Component {
                                 <h3>Things <span>Sharing</span></h3>
                                 <div className="icons">
                                     <span><FontAwesomeIcon icon={faEye} /></span>
-                                    <span><FontAwesomeIcon icon={faCode} /><a href="https://github.com/JoannaFigula/Things_sharing" target="_blank"></a></span>
+                                    <span><a href="https://github.com/JoannaFigula/Things_sharing" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faCode} /></a></span>
                                 </div>
                             </div>
                             <p>The aim of the project were to create a place where everyone

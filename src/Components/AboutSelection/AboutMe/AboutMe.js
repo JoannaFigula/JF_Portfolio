@@ -14,7 +14,7 @@ export default class AboutMe extends Component {
                             <p>Today I am wise, so I am changing myself."</p>
                         </div>
                         </div>
-                    <img className="img-about" alt="photo" src={photo}/>
+                    <img className="img-about" alt="profile"  src={photo}/>
                 </div>
             </section>
         )

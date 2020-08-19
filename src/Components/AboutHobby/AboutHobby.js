@@ -12,7 +12,6 @@ import photo6 from "../../img/biegowkiBieg.jpg";
 
 export default class AboutHobby extends Component {
     render() {
-
         return(
           <section className="sliderHobby container">
               <h2>Enjoy your life and do all things with passion!</h2>

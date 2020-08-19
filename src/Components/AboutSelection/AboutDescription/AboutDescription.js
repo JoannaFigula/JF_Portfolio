@@ -12,7 +12,10 @@ export default class AboutDescription extends Component {
                     {/*</div>*/}
                     <div>
                         <h2>Few words about me</h2>
-                        <p>Lorem ipsum dolor sit amet enim. Mauris lobortis convallis, dui aliquam sapien. Morbi pede. Vestibulum eget volutpat facilisis, wisi vel blandit tempus enim sapien aliquet ipsum. Donec at urna quis ipsum. Nulla pellentesque sed, ultrices metus mi quam enim, id mollis faucibus, convallis consequat. Donec pede. Cras nec felis. Curabitur magna iaculis mi. Cras lorem libero, pharetra vel, lacinia turpis a wisi. Phasellus a elit. Proin dui et leo. Suspendisse est. Curabitur nec erat.</p>
+                        <p>I have seven years of experience in managing and coordinating research projects in the country and
+                            abroad as a geophysics team manager. I changed the industry because I always wanted to try my hand
+                            as a developer. I am highly motivated, open to knowledge and acquiring new skills. Taking the first
+                            steps in the IT, in particular, I care about development opportunities and learning to achieve higher goals.</p>
                     </div>
                 </div>
                 </section>

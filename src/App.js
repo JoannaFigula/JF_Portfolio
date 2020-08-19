@@ -5,7 +5,7 @@ import Contact from './Components/Contact';
 
 import './App.scss';
 import {
-    HashRouter as Router,
+    BrowserRouter as Router,
     Route,
     Switch,
 } from 'react-router-dom';

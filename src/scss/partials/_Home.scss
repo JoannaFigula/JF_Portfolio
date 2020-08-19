@@ -3,7 +3,6 @@
   justify-content: space-between;
   width: 100%;
   height: 100%;
-  //border:1px solid black;
 }
 
 .home{
@@ -43,7 +42,7 @@
       font-size: 100px;
       color: $fifth-color;
       //border:1px solid black;
-      padding: 40px 60px;
+      padding: 40px;
     }
 
     span{
@@ -55,7 +54,7 @@
       //border:1px solid black;
       color: $third-color;
       font-size: 25px;
-      padding: 10px 65px;
+      padding: 10px 40px;
       font-weight: bold;
       span{
         text-transform: uppercase;
@@ -98,51 +97,7 @@
       color: $fifth-color;
       border:none;
     }
-
   }
-
-  //button {
-  //  width: 160px;
-  //  margin: 20% 60px;
-  //  padding: 15px 20px;
-  //  text-align: center;
-  //  text-decoration: none;
-  //  position: relative;
-  //  border:2px solid $fifth-color;
-  //  color: $fifth-color;
-  //  background-color: transparent;
-  //  border-radius: 5px;
-  //  font-size: 14px;
-  //  font-weight: bold;
-  //}
-  //
-  //button span a {
-  //  padding: 15px 20px;
-  //  text-decoration: none;
-  //  color: $first-color;
-  //}
-  //
-  //button span {
-  //  text-align: center;
-  //  display: block;
-  //  min-width: 150px;
-  //  mix-blend-mode: color-burn;
-  //}
-  //
-  //button:before {
-  //  content:"";
-  //  width: calc(100%);
-  //  height: calc(100% - 23px);
-  //  position: absolute;
-  //  top:10px;
-  //  left: 0;
-  //  right: 5px;
-  //}
-  //
-  //button:hover:before {
-  //  background-color: #d3c4c4;
-  //  border:none;
-  //}
 }
 
 

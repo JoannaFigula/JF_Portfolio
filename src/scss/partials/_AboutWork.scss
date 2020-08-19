@@ -21,17 +21,15 @@
       text-align: center;
     }
     p{
-      width:52%;
-      text-align: justify;
+      width: 60%;
       font-size: 20px;
-      font-weight: bold;
-      color: $third-color;
+      padding: 20px 0;
+      //text-indent: 20px;
+      text-align: justify;
       line-height: 2;
-      padding:10px;
-      font-style: italic;
+      color:$third-color;
     }
   }
-
 }
 
 
